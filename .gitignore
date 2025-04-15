@@ -1,0 +1,66 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Streamlit config
+.streamlit/config.toml
+
+# VSCode settings
+.vscode/
+
+# macOS
+.DS_Store
+
+# Python env files
+*.env
+*.env.*
+
+# Logs and debug
+*.log
+
+
+
+# FastAPI cache or static temp files
+*.db
+*.sqlite3
+instance/
+*.bak
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+
+# Pyre
+.pyre/
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# OS/IDE specific
+*.swp
+Thumbs.db
+ehthumbs.db
+.idea/
+*.iml
